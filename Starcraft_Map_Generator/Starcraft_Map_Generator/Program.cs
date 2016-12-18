@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Starcraft_Map_Generator.World;
+using System;
 
 namespace Starcraft_Map_Generator
 {
@@ -14,8 +15,13 @@ namespace Starcraft_Map_Generator
         [STAThread]
         static void Main()
         {
+            
+            Console.Write("HEJSAN ALLIHOPA: "+c);
+
             using (var game = new Generator())
                 game.Run();
+
+            
         }
     }
 #endif

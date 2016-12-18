@@ -18,8 +18,6 @@ namespace Starcraft_Map_Generator
 
         protected override void Initialize()
         {
-           
-
             base.Initialize();
         }
 
